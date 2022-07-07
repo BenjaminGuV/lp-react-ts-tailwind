@@ -9,17 +9,25 @@ import WhoIs from "./components/WhoIs.component";
 import Statistic from "./components/Statistic.component";
 import Contact from "./components/Contact.component";
 import Footer from "./components/Footer.component";
+import { Fade } from 'react-awesome-reveal';
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <BodyImagen />
-      <div data-aos="fade-up">asdasdasdasdasdasd</div>
-      <Services />
-      <WhoIs />
-      <Statistic />
-      <Contact />
+      <Fade>
+        <Services />
+      </Fade>
+      <Fade>
+        <WhoIs />
+      </Fade>
+      <Fade>
+        <Statistic />
+      </Fade>
+      <Fade>
+        <Contact />
+      </Fade>
       <Footer />
     </div>
   );

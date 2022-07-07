@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Fade } from 'react-awesome-reveal';
 
 export const Nav = () => {
 
@@ -15,9 +16,11 @@ export const Nav = () => {
 				<div className="flex justify-between">
 					<div className="flex space-x-7">
 						<div>
-							<a href="/" className="flex items-center py-4 px-2">
-								<img src="logo-accounting.png" alt="Logo" className="h-30 w-30 mr-2"/>
-							</a>
+							<Fade>
+								<a href="/" className="flex items-center py-4 px-2">
+									<img src="logo-accounting.png" alt="Logo" className="h-30 w-30 mr-2"/>
+								</a>
+							</Fade>
 						</div>
 						<div className="hidden md:flex items-center space-x-1">
 						</div>

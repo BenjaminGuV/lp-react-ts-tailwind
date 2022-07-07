@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 /* colors */
+.ccolor{
+  color: #f6bb19;
+}
 .rect-yellow{
   border: 5px solid #f6bb19;
 }

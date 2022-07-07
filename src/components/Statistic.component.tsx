@@ -11,7 +11,7 @@ const Statistic = () => {
                     </div>
                     <div className="flex flex-wrap -m-4 text-center">
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <div className="rounded-full inline-flex items-center justify-center">
                                 <svg enable-background="new 0 0 64 64" 
                                     height="64px" id="Layer_1" version="1.1" 
                                     viewBox="0 0 64 64" width="64px"  
@@ -26,7 +26,7 @@ const Statistic = () => {
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <div className="rounded-full inline-flex items-center justify-center">
                                 <svg 
                                     viewBox="0 0 24 24"
                                     height="64px"
@@ -40,7 +40,7 @@ const Statistic = () => {
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                            <div className="rounded-full inline-flex items-center justify-center">
                                 <svg 
                                     enable-background="new 0 0 32 32" 
                                     height="64px"
@@ -52,11 +52,12 @@ const Statistic = () => {
                             </div>
                         </div>
                         <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
-                            <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                            <svg 
+                            <div className="rounded-full inline-flex items-center justify-center">
+                                <svg 
                                 version="1.1" 
                                 viewBox="0 0 128 128"
-                                xmlns="http://www.w3.org/2000/svg" 
+                                xmlns="http://www.w3.org/2000/svg"
+                                height="64px"
                                 >
                                     <g id="_x31_2_3D_Printing"/><g id="_x31_1_VR_Gear"/>
                                     <g id="_x31_0_Virtual_reality"/><g id="_x39__Augmented_reality"/>
